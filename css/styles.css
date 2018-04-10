@@ -1,0 +1,360 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: #98c5e9;
+    font-family: "Times New Roman", serif;
+    height: 100px;
+    position: fixed;
+    width: 1519px;
+    z-index: 100;
+}
+
+.logo_text {
+    color: #00285e;
+    text-align: left;
+    padding-top: 40px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.logo_pic {
+    float: left;
+}
+
+nav {
+    color: #00285e;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 12%;
+    bottom: -10%;
+    z-index: 100;
+}
+
+nav ul {
+    width: 980px;
+    margin: auto;
+    height: 38px;
+    padding: 0px;
+    z-index: 100;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    z-index: 100;
+}
+
+nav ul li a {
+    width: 80px;
+    height: 28px;
+    line-height: 20px;
+    background: #98c5e9;
+    color: #00285e;
+    margin: 5px 10px font-size: 12px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+}
+
+nav ul li a:hover {
+    /*background-color: #c0dcf1;
+     border-radius: 15px;
+     margin-top: 3px;
+     transition: margin-top 0.35s ease-in;*/
+    border-bottom: solid 6px #00285e;
+}
+
+#languagespan{
+    position: absolute;
+    left: 1400px;
+    top: 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    z-index: 101;
+}
+
+#languagespan a{
+    text-decoration: none;
+    color: #00285e;
+    z-index: 101;
+}
+
+#languagespan a:hover {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.languagePicker_icon {
+    position: absolute;
+    top: 22px;
+    left: 1380px;
+    z-index: 101;
+}
+
+body {
+    background-color: #6caddf33;
+    font-family: "Times New Roman", serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titleH1 {
+    color: #00285e;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#indexPic {
+    margin-right: 60px;
+    margin-top: 30px;
+    background: url("../images/gifs/ManCity_A-Z.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1100px;
+    float: right;
+}
+
+#playersPic {
+    margin-right: 60px;
+    margin-top: 30px;
+    background: url("../images/gifs/silva.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1100px;
+    float: right;
+}
+
+#indexButton1 {
+    font-size: 50px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 680px;
+    left: 139px;
+    border-radius: 10px;
+    border: solid 5px #6caddf33;
+    background-color: #6caddf33;
+    z-index: 1;
+}
+
+#indexButton2 {
+    font-size: 50px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 680px;
+    left: 850px;
+    border-radius: 10px;
+    border: solid 5px #6caddf33;
+    background-color: #6caddf33;
+    z-index: 1;
+}
+
+#indexButton1:hover {
+    background-color: black;
+    color: #f4bc46;
+}
+
+#indexButton2:hover {
+    background-color: black;
+    color: #f4bc46;
+}
+
+#indexButton1 a {
+    color: #00285e;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 8px;
+    z-index: 1;
+}
+
+#indexButton2 a {
+    color: #00285e;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 8px;
+    z-index: 1;
+}
+
+#indexButton1 a:hover {
+    background-color: black;
+    color: #f4bc46;
+}
+
+#indexButton2 a:hover {
+    background-color: black;
+    color: #f4bc46;
+}
+
+
+.content {
+    text-indent: 40px;
+    text-align: justify;
+    height: 100px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #00285e;
+}
+
+.about_us {
+    margin-right: 320px;
+    margin-left: 10px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+#history {
+    float: right;
+    margin-right: 15px;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+.form {
+    margin-right: 150px;
+    margin-top: 0px;
+    text-align: center;
+    color: #00285e;
+}
+
+.leftPic {
+    width: 460px;
+    height: 300px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+.rightPic {
+    width: 460px;
+    height: 300px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 130px;
+    z-index: 1;
+}
+
+.leftPara {
+    float: left;
+    width: 350px;
+    height: 260px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-left: 120px;
+    line-height: 200%;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+}
+
+.rightPara {
+    float: left;
+    width: 350px;
+    height: 260px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 25px;
+    margin-left: 250px;
+    line-height: 200%;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+}
+
+.leftPara:hover {
+    text-decoration: underline;
+}
+
+.rightPara:hover {
+    text-decoration: underline;
+}
+
+#contact_pic {
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+#contactBtn {
+    font-size: 15px;
+    color: #98c5e9;
+    display: block;
+    position: absolute;
+    top: 420px;
+    left: 570px;
+    border-radius: 5px;
+    border: solid 10px #00285e;
+    background-color: #00285e;
+}
+
+#highlightsPic1 {
+    height: 670px;
+    width: 1219px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#highlightsPic2 {
+    height: 670px;
+    width: 1219px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+    height: 1530px;
+    background: black;
+    color: #f4bc46;
+    text-align: center;
+}
+
+h3 {
+    color: #f4bc46;
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 30px;
+}
+
+h3 .otherPages {
+    color: #f4bc46;
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 30px;
+}
+
+.sidebarContent {
+    background: #2f3133;
+    width: 300px;
+    height: 50px;
+    padding-top: 30px;
+    line-height: 15px;
+    border-bottom: solid 1px #f4bc46;
+}
+
+#footer {
+    clear: both;
+    background: #98c5e9;
+    color: #00285e;
+    text-align: center;
+    height: 50px;
+}
+
+#footer_text {
+    left: -10%;
+    bottom: -30%;
+    position: relative;
+}
